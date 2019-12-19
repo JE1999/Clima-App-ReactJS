@@ -31,7 +31,7 @@ function Formulario({datosConsulta}){
             className="uk-form-stacked">
 
             <div className="uk-margin">
-                <label className="uk-form-label" htmlFor="form-stacked-text">Text</label>
+                <label className="uk-form-label" htmlFor="form-stacked-text">Ciudad:</label>
                 <div className="uk-form-controls">
                     <input 
                         className="uk-input" 
@@ -45,7 +45,7 @@ function Formulario({datosConsulta}){
             </div>
 
             <div className="uk-margin">
-                <label className="uk-form-label" htmlFor="form-stacked-select">Select</label>
+                <label className="uk-form-label" htmlFor="form-stacked-select">Pais:</label>
                 <div className="uk-form-controls">
                     <select 
                         className="uk-select" 

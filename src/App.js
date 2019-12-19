@@ -75,15 +75,15 @@ function App() {
       <Header
         titulo = 'Clima React '
       />
-      <div className="uk-container">
-        <div className="uk-column-1-2@m">
-          <div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-sm-12 col-md-6 shadow p-4">
             <Formulario
               datosConsulta ={datosConsulta}
             />
           </div>
-          <div className="uk-column-1-1">
-            {componente}
+          <div className="col-12 col-sm-12 col-md-6">
+            <center>{componente}</center>
           </div>
         </div>
       </div>
